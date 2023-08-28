@@ -1,0 +1,117 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.container {
+    background-image: url(../image/background1.png);
+    background-color: transparent;
+}
+#container_section{
+    width: 1240px;
+    margin: 0 auto;
+}
+.first_section {
+    display: flex;
+    justify-content: center;
+}
+
+.slider_text {
+    width: 800px;
+}
+
+.slider_text h1 {
+    font-size: 75px;
+    font-weight: revert;
+    margin-bottom: 0px;
+}
+
+.slider_text p {
+    padding-right: 118px;
+    line-height: 32px;
+    font-weight: inherit;
+}
+
+.slider_image {
+    padding-top: 60px;
+}
+
+.slider_image img {
+    width: 400px;
+}
+
+.button {
+    background-color: #E55473;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feature_flower {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.ourflower {
+    text-align: center;
+}
+
+.section_image {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ourflower p {
+    line-height: 30px;
+}
+
+.section_image1 {
+    background-image: url(../image/back2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section_image1 img {
+    width: 75%;
+    padding-left: 11%;
+    padding-top: 8%;
+
+}
+.section_image2 {
+    background-image: url(../image/bag44.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section_image2 img {
+    width: 80%;
+    padding-left: 8%;
+    padding-top: 16%;
+
+}
+.section_image3 {
+    background-image: url(../image/bag3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section_image3 img {
+    width: 70%;
+    padding-left: 11%;
+    padding-top: 8%;
+
+}
+
+  
+.footer_link{
+   text-align: center;
+   margin-top: 5px;
+}
