@@ -9,10 +9,12 @@ body {
     background-image: url(../image/background1.png);
     background-color: transparent;
 }
-#container_section{
+
+#container_section {
     width: 1240px;
     margin: 0 auto;
 }
+
 .first_section {
     display: flex;
     justify-content: center;
@@ -85,6 +87,7 @@ body {
     padding-top: 8%;
 
 }
+
 .section_image2 {
     background-image: url(../image/bag44.png);
     background-size: cover;
@@ -92,11 +95,12 @@ body {
 }
 
 .section_image2 img {
-    width: 80%;
     padding-left: 8%;
     padding-top: 16%;
+    width: 306px;
 
 }
+
 .section_image3 {
     background-image: url(../image/bag3.png);
     background-size: cover;
@@ -107,11 +111,103 @@ body {
     width: 70%;
     padding-left: 11%;
     padding-top: 8%;
+}
+
+.footer_link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+.container2 {
+    background-image: url(../image/Rectangle6.png);
+    background-color: transparent;
+}
+
+.first_section2 {
+    display: flex;
+    justify-content: center;
+}
+
+.slider_text2 {
+    width: 800px;
+}
+
+.slider_text2 h2 {
+    font-size: 40px;
+    font-weight: revert;
+    margin-bottom: 0px;
+}
+
+.slider_text2 p {
+    padding-right: 4px;
+    line-height: 32px;
+    font-weight: inherit;
+}
+
+.slider_image2 {
+    padding-top: 60px;
+}
+
+.slider_image2 img {
+    width: 400px;
+    padding-bottom;
+}
+
+.button2 {
+    background-color: #E55473;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section_1 {
+    text-align: center;
+    margin-top: 32%;
 
 }
 
-  
-.footer_link{
-   text-align: center;
-   margin-top: 5px;
+.section_image22 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
 }
+
+.thrt_section img {
+    width: 299px;
+}
+.feature_flower2{
+    background-image: url(../image/rectangle22.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 120px;
+}
+.gettitle {
+    padding-top: 100px;
+    margin-bottom: 0px;
+}
+.gettrust {
+    margin-top: 5px;
+}
+.getTrustinput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=text] {
+    width: 450px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: 10px;
+  }
